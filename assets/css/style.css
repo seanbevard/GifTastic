@@ -1,0 +1,102 @@
+/*sticky footer code*/
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #340865;
+    background-color: #e7c146;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin: 0px, 0px, 120px, 0px;
+}
+
+.h1 {
+    color: white;
+    font-size: 80px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+#clubs-form {
+    margin: 20px;
+}
+
+#clubs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.gif {
+    margin: 10px;
+}
+
+p{
+  font-weight: bolder;
+  text-decoration: underline;
+  margin:0px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 1.1em;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 90px;
+    color: #A2A7A5;
+    background-color: #340865;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 10px solid #635380;
+}
+
+.btn,
+.btn:active,
+.btn:active:focus {
+    font-size: 20px;
+    color: #fff;
+    background-color: #340865;
+    border: none;
+    margin: 10px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #220542;
+    border-color: white;
+    color: #A2A7A5;
+}
+
+.btn:focus {
+    color: #fff;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: 0 none;
+}
+
+::-moz-selection {
+    background: #340865;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #340865;
+    color: #fff;
+    text-shadow: none;
+}
