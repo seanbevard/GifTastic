@@ -34,7 +34,7 @@ $(document).ready(function() {
         var club = $(this).attr("data-club");
 
         // creating the giphy URL
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
             club + "&api_key=dc6zaTOxFJmzC&limit=10";
 
         // Performing our AJAX GET request
